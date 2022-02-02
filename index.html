@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            height: 100%;
+            text-align: center;
+            background-color: #CDF0EA;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .navbar {
+            padding: 15px 0;
+            margin: 10px;
+            background-color: #FFFDDE;
+            border: 2px solid grey;
+        }
+        .navbar ul {
+            list-style-type: none;
+        }
+        .navbar ul li {
+            display: inline-block;
+            padding: 0 25px;
+        }
+        .navbar ul li a {
+            text-decoration: none;
+            color: red;
+            background-color: burlywood;
+            padding: 5px 15px;
+        }
+        .navbar ul li a:hover {
+            background-color: bisque;
+        }
+        .content {
+            margin: 0 25px;
+            height: 100%;
+        }
+        .content .aboutCambodia img {
+            width: 90%;
+            /* padding: 15px; */
+        }
+        .content .aboutCambodia {
+            margin: 25px 0;
+        }
+        .content .aboutMe img {
+            width: 25%;
+            /* padding: 15px; */
+        }
+        .aboutMe {
+            border: 2px solid green;
+        }
+        .footer {
+            margin: 25px 0;
+        }
+        iframe {
+            width: 90%;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="attraction.html">ATTRACTION</a></li>
+            <li><a href="food.html">FOOD</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="aboutCambodia">
+            <h1>Welcome to Cambodia!!!</h1>
+            <img src="images/wallpaper.jpg" alt="">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/FSlj7_Fi8Us" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="intro">
+                <p>
+                    Cambodia is a Southeast Asian nation whose landscape spans low-lying plains, the Mekong Delta, mountains and Gulf of Thailand coastline. Phnom Penh, its capital, is home to the art deco Central Market, glittering Royal Palace and the National Museum's historical and archaeological exhibits. In the country's northwest are the ruins of Angkor Wat, a massive stone temple complex built during the Khmer Empire. 
+                </p>
+            </div>
+            
+        </div>
+
+        <div class="aboutMe">
+            <h2>Let's explore Cambodia with me!</h2>
+            <img src="images/profile.jpg" alt="">
+            <p>Hey I am Lysing, I am the author of this website.I built this website to help tourists find the best places, foods and experience in my country, Cambodia.</p>
+        </div>
+        <!-- <img src="images/wallpaper.jpg" alt="" srcset=""> -->
+    </div>
+    
+    <div class="footer">
+        &copy; All right reserved 2022
+    </div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attraction</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body {
+            height: 100%;
+            text-align: center;
+            background-color: #CDF0EA;
+            box-sizing: border-box;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .navbar {
+            padding: 15px 0;
+            margin: 10px;
+            background-color: #FFFDDE;
+            border: 2px solid grey;
+        }
+        .navbar ul {
+            list-style-type: none;
+        }
+        .navbar ul li {
+            display: inline-block;
+            padding: 0 25px;
+        }
+        .navbar ul li a {
+            text-decoration: none;
+            color: red;
+            background-color: burlywood;
+            padding: 5px 15px;
+        }
+        .navbar ul li a:hover {
+            background-color: bisque;
+        }
+        .content {
+            margin: 15px;
+            height: 100%;
+        }
+        .province {
+            border: 2px solid blue;
+            margin: 5px 0;
+        }
+        .province .site {
+            width: 200px;
+            height: 250px;
+            display: inline-block;
+            border: 2px solid gray;
+            margin: 5px 0;
+            overflow: hidden;
+        }
+        .province .site img {
+            width: 200px;
+            height: 150px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="attraction.html">ATTRACTION</a></li>
+            <li><a href="food.html">FOOD</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="province">
+            <p>Phnom Penh</p>
+            <div class="site">
+                <img src="images/phnompenh.jpg" alt="">
+                <p>Independent Monument</p>
+            </div>
+            <div class="site">
+                <img src="images/riverside.jpg" alt="">
+                <p>Riverside</p>
+            </div>
+            <div class="site">
+                <img src="images/royal_palace.jpg" alt="">
+                <p>Royal Palace</p>
+            </div>
+        </div>
+        <div class="province">
+            <p>Siem Reap</p>
+            <div class="site">
+                <img src="images/angkor.jpg" alt="">
+                <p>Angkor Wat Temple</p>
+            </div>
+            <div class="site">
+                <img src="images/bayon.jpg" alt="">
+                <p>Bayon Temple</p>
+            </div>
+            <div class="site">
+                <img src="images/pubstreet.jpg" alt="">
+                <p>Pubstreet</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; All right reserved 2022
+    </div>
+</body>
+</html>
